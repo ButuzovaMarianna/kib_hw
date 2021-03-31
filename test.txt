@@ -5,6 +5,10 @@
 // получаем float
 : get_arg2 print read cast_float ;
 // вводим данные и вычисляем объём шара
+// four - вводим 4
+// three - вводим 3
+// pi - вводим 3.14
+// r - вводим радиус шара
 "Give me $four" get_arg "four" store
 "Give me $three" get_arg "three" store
 "Give me $pi" get_arg2 "pi" store
