@@ -1,0 +1,12 @@
+// возведение в квадрат
+: power dup * ;
+// получаем int
+: get_arg print read cast_int ;
+// получаем float
+: get_arg2 print read cast_float ;
+// вводим данные и вычисляем объём шара
+"Give me $four" get_arg "four" store
+"Give me $three" get_arg "three" store
+"Give me $pi" get_arg2 "pi" store
+"Give me $r" get_arg "r" store
+"four" load "r" load power * "r" load * "pi" load * "three" load / println stack
